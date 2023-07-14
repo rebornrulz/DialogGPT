@@ -15,5 +15,7 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 ### Run this Space locally
 
+```
 docker run -it -p 7860:7860 --platform=linux/amd64 \
 	registry.hf.space/rebornrulz-microsoft-dialogpt-small:latest python app.py
+```
